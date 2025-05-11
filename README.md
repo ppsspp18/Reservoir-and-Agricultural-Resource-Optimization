@@ -60,10 +60,8 @@ This project applies **Linear Programming (LP)** to optimize the allocation of a
 
 ### ✅ Optimization Status
 - **Status:** Optimal
-- **Total Profit:** ₹51,336,563,730.35
 - **Profit per Acre:** ₹113,750.13
-- **Fertilizer Used:** 107,129,637.31 grams (out of 182,600,000 grams)
-- **Fertilizer Usage per Acre:** 237.37 g/acre
+- **Fertilizer Usage per Acre:** 237.37 g/acre (0.059 g / m²)
 
 ### 🌾 Optimal Crop Allocation (Area in m²)
 - Wheat: 644,853.92
