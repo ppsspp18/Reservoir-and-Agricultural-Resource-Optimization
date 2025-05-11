@@ -1,4 +1,4 @@
-# Crop Planning Optimization using Linear Programming
+# Reservoir and Agricultural Resource Optimization using Linear Programming
 
 This project applies **Linear Programming (LP)** to optimize the allocation of agricultural resources for multiple crops over a 12-month period. It aims to maximize profit while considering constraints such as water availability, pesticide use, land area, storage capacity, and balanced food production.
 
