@@ -8,7 +8,7 @@ This project applies **Linear Programming (LP)** to optimize the allocation of a
 - Considers:
   - Water requirements (including industrial use)
   - Pesticide usage (limited to 0.1g/m²)
-  - Storage constraints (min, max, and initial reservoir levels)
+  - Storage constraints (min, max, no net loss throught the year and initial reservoir levels)
   - Area constraints
   - Balanced food category outputs (e.g., cereals, vegetables, spices)
 
