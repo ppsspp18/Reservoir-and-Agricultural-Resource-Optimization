@@ -47,7 +47,7 @@ This project applies **Linear Programming (LP)** to optimize the allocation of a
 
 ## 📊 Constraints Modeled
 
-- **Water**: Satisfies monthly and cumulative usage bounds.
+- **Water**: Satisfies water balance equation and no net loss throughout the year.
 - **Pesticide**: Constrained to 0.1 gram per square meter.
 - **Area**: Total land cannot exceed 1.826 billion m².
 - **Food Category Balance**: Ensures diversity across categories like cereals, vegetables, and spices.
