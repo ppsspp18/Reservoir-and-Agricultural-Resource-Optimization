@@ -80,7 +80,7 @@ This project applies **Linear Programming (LP)** to optimize the allocation of a
 
 ### 💧 Water Storage Levels (in m³)
 Reservoir storage increased during months of expected drought:
-- **Low Point:** Aug 23 – 100,000,000 (critical drought month)
+- **Low Point:** Aug 23 – 100,000,000 
 - **Peak Storage:** Jan 24 – 3,140,000,000
 This indicates smart reservoir management to handle drought periods by stockpiling water in advance.
 
