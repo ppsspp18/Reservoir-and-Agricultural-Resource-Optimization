@@ -15,16 +15,18 @@ This project applies **Linear Programming (LP)** to optimize the allocation of a
 ## 🛠 Technologies Used
 
 - **Python 3**
-- **[PuLP](https://coin-or.github.io/pulp/)** – Linear programming modeling package
+- **PuLP** – Linear programming modeling package
 - **NumPy** – Numerical computation
+- **Matplotlib** - Graphical visualization
 
 ## 📁 Project Structure
 
-- `Untitled2.ipynb` – Jupyter Notebook containing:
+- `lp_code.ipynb` – Jupyter Notebook containing:
   - Data preprocessing
   - Problem formulation (objective function + constraints)
   - LP model construction using PuLP
   - Solution output
+  - Graphs of area allocation, rainfall, crop allocation and storage of each month 
 
 ## 🚀 How to Run
 
