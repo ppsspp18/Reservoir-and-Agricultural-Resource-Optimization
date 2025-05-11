@@ -37,7 +37,7 @@ This project applies **Linear Programming (LP)** to optimize the allocation of a
 
 2. Open the notebook:
    ```bash
-   jupyter notebook Untitled2.ipynb
+   jupyter notebook lp_code.ipynb
    ```
 
 3. Run all cells to:
@@ -56,10 +56,6 @@ This project applies **Linear Programming (LP)** to optimize the allocation of a
 
 > **Maximize total profit** from crop production while respecting all agricultural and environmental constraints.
 
-## ✍️ Author
-
-*Your Name Here*  
-*Affiliation or Contact (Optional)*
 ## 🧾 Results Summary
 
 ### ✅ Optimization Status
