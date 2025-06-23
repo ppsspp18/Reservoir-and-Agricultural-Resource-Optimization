@@ -2,7 +2,7 @@
 
 This project applies **Linear Programming (LP)** to optimize the allocation of agricultural resources for multiple crops over a 12-month period. It aims to maximize profit while considering constraints such as water availability, pesticide use, land area, storage capacity, and balanced food production.
 
-## 📌 Features
+## Features
 
 - Optimizes crop selection and land allocation for 25 crops across 12 months.
 - Considers:
@@ -12,14 +12,14 @@ This project applies **Linear Programming (LP)** to optimize the allocation of a
   - Area constraints
   - Balanced food category outputs (e.g., cereals, vegetables, spices)
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **Python 3**
 - **PuLP** – Linear programming modeling package
 - **NumPy** – Numerical computation
 - **Matplotlib** - Graphical visualization
 
-## 📁 Project Structure
+## Project Structure
 
 - `lp_code.ipynb` – Jupyter Notebook containing:
   - Data preprocessing
@@ -28,7 +28,7 @@ This project applies **Linear Programming (LP)** to optimize the allocation of a
   - Solution output
   - Graphs of area allocation, rainfall, crop allocation and storage of each month 
 
-## 🚀 How to Run
+## How to Run
 
 1. Install dependencies:
    ```bash
@@ -45,25 +45,25 @@ This project applies **Linear Programming (LP)** to optimize the allocation of a
    - Build and solve the optimization model
    - Review results: selected crops, area allocation, and expected profit
 
-## 📊 Constraints Modeled
+## Constraints Modeled
 
 - **Water**: Satisfies water balance equation and no net loss throughout the year.
 - **Pesticide**: Constrained to 0.1 gram per square meter.
 - **Area**: Total land cannot exceed 1.826 billion m².
 - **Food Category Balance**: Ensures diversity across categories like cereals, vegetables, and spices.
 
-## 📈 Objective
+## Objective
 
 > **Maximize total profit** from crop production while respecting all agricultural and environmental constraints.
 
-## 🧾 Results Summary
+## Results Summary
 
-### ✅ Optimization Status
+### Optimization Status
 - **Status:** Optimal
 - **Profit per Acre:** ₹113,750.13
 - **Fertilizer Usage per Acre:** 237.37 g/acre (0.059 g / m²)
 
-### 🌾 Optimal Crop Allocation (Area in m²)
+###  Optimal Crop Allocation (Area in m²)
 - Wheat: 644,853.92
 - Maize: 6,655,146.10
 - Groundnut: 1,095,000.00
@@ -74,13 +74,13 @@ This project applies **Linear Programming (LP)** to optimize the allocation of a
 - Ginger: 685,292.52
 - All other crops: 0.00
 
-### 💧 Water Storage Levels (in m³)
+###  Water Storage Levels (in m³)
 Reservoir storage increased during months of expected drought:
 - **Low Point:** Aug 23 – 100,000,000 
 - **Peak Storage:** Jan 24 – 3,140,000,000
 This indicates smart reservoir management to handle drought periods by stockpiling water in advance.
 
-### 💡 Shadow Prices (Dual Values)
+###  Shadow Prices (Dual Values)
 Shadow prices represent the change in objective function (profit) per unit increase in constraint bounds.
 
 - **Active Area Constraints:**
